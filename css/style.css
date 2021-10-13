@@ -185,6 +185,7 @@ section{
     width: 350px;
     height: calc(100vh - 95px);
     padding: 0 15px;
+    transition: 0.6s ease-in-out;
 }
 
 .header .cart-items-container.active{
