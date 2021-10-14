@@ -23,3 +23,15 @@ cartBtn.onclick = function () {
         cartItems.style.right = '-100%'
     }
 }
+
+// Menu Btn
+let menuBtn = document.getElementById('menu-btn')
+let menuItems = document.getElementById('menu-items')
+
+menuBtn.onclick = function () {
+    if (menuItems.style.display == 'none') {
+        menuItems.style.display = 'block'
+    } else {
+        menuItems.style.display = 'none'
+    }
+}
